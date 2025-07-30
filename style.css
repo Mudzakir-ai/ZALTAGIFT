@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+}
+
+.logo {
+  width: 100px;
+}
+main {
+  padding: 20px;
+}
+.produk {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.produk-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 280px;
+  border-radius: 10px;
+  text-align: center;
+}
+.produk-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.harga {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #e91e63;
+}
+a {
+  text-decoration: none;
+  background: #25d366;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: inline-block;
+}
+footer {
+  text-align: center;
+  background: #f0f0f0;
+  padding: 15px;
+  font-size: 14px;
+}
+@media (max-width: 600px) {
+  .produk {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #2196f3, #1976d2);
+  padding: 15px 30px;
+  color: white;
+  flex-wrap: wrap;
+}
+header .logo {
+  width: 60px;
+  height: auto;
+  margin-right: 15px;
+}
+header h1 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+header p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  header .logo {
+    margin: 0 auto 10px;
+  }
+}
