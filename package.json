@@ -1,0 +1,13 @@
+{
+  "name": "zalta-gift",
+  "version": "1.0.0",
+  "description": "Zalta Gift - Premium invitation blanks e-commerce site",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'Static site ready'",
+    "build": "echo 'Static site built successfully'"
+  },
+  "keywords": ["undangan", "blangko", "invitation"],
+  "author": "",
+  "license": "MIT"
+}
